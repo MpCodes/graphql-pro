@@ -1,0 +1,24 @@
+{
+  "name": "graphql-pro",
+  "version": "1.0.0",
+  "description": "test for graphql",
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "mpcodes",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.7.0",
+    "graphql-date": "^1.0.3",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
